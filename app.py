@@ -11,6 +11,14 @@ import pandas as pd
 import numpy as np
 import warnings
 
+from google.colab import drive
+drive.mount('/content/drive')
+
+TAVILY_API_KEY = "tvly-dev-414bpQ-e0VRZ..."
+GROQ_API_KEY = "AQ.Ab8RN6J2-pCq-hdQgW4YQ4mx7WyCkuLz7lhD198R50AR2MN-1Q."
+GOOGLE_API_KEY = "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"
+
+print("Done")
 warnings.filterwarnings("ignore")
 
 print("Module Loaded Successfully!!")
